@@ -1,3 +1,4 @@
+syntax = "proto2";
 message two_oneofs {
     oneof first_oneof {
         bool a = 10;
